@@ -3,3 +3,117 @@
     padding: 0;
 }
 
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-variation-settings: "wdth" 100;
+  }
+
+/* Text Color Style */
+
+.color-1 {
+    color: #181818;
+}
+
+.color-2 {
+    color: #474747;
+}
+
+.color-3 {
+    color: #757575;
+}
+
+/* Header Section Style */
+
+.header {
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Navigation Bar Style */
+
+.company-name {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.company-name-style {
+    color: #FD6E0A;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 230px 45px 230px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+
+.btn-secondary {
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #FFF8F3;
+    padding: 18px 35px;
+    font-size: 20px;
+}
+
+
+/* Banner Section Style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-grettings {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin: 5px 0 20px 0;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    max-width: 585px;
+    margin-left: 230px;
+}
+
+.banner-image{
+    width: 585px;
+    margin-right: 38px;
+}
+
+.download-btn {
+    margin-right: 30px;
+}

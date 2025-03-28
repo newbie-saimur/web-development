@@ -6,7 +6,11 @@
 .open-sans-font {
     font-family: "Open Sans", sans-serif;
     font-variation-settings: "wdth" 100;
-  }
+}
+
+section {
+    margin-bottom: 130px;
+}
 
 /* Text Color Style */
 
@@ -116,4 +120,91 @@ nav li a {
 
 .download-btn {
     margin-right: 30px;
+}
+
+
+/* About Section Style */
+
+main {
+    margin: 0 230px;
+}
+
+.about {
+    padding: 130px 155px;
+    background-color: #FFF8F3;
+}
+
+.about-container {
+    border: 1px solid #181818;
+    background-color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.about-items  h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.about-items  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
+
+/* Skill Section Design */
+
+.skill-description {
+    width: 900px;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.skill-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.skill-item {
+    padding: 30px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, .06);
+}
+
+.skill-image {
+    width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-item-description {
+    font-size: 16px;
+    font-weight: 400;
 }

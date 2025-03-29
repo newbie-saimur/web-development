@@ -29,9 +29,16 @@ section {
 /* Header Section Style */
 
 .header {
+    background-color: #FFF8F3;
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
+}
+
+.header-top {
+    height: 50px;
+    background-color: #FFF8F3;
+    margin-bottom: -50px;
 }
 
 /* Navigation Bar Style */
@@ -207,4 +214,61 @@ main {
 .skill-item-description {
     font-size: 16px;
     font-weight: 400;
+}
+
+
+
+/* Resume Section Styles */
+
+.resume-section-title {
+    margin-bottom: 110px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.resume-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.resume-item {
+    margin-right: 45px;
+}
+
+.resume-item h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.resume-item h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-container hr {
+    border-top : 1px solid #D1D1D1;
+    margin-bottom: 30px;
+}
+
+.resume-download-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 }

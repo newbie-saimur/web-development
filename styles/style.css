@@ -86,13 +86,13 @@ nav li a:hover {
     color: white;
     padding: 18px 35px;
     font-size: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
 .btn-primary:hover {
     color: #FD6E0A;
     background-color: white;
     border: 1px solid #FD6E0A;
-    transition: all 0.5s ease-in-out;
 }
 
 .btn-secondary {
@@ -105,12 +105,12 @@ nav li a:hover {
     background-color: #FFF8F3;
     padding: 18px 35px;
     font-size: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
 .btn-secondary:hover {
     background-color: #FD6E0A;
     color: white;
-    transition: all 0.5s ease-in-out;
 }
 
 /* Banner Section Style */

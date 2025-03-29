@@ -71,7 +71,14 @@ nav li a {
     font-size: 20px;
 }
 
+nav li a:hover {
+    color: #FD6E0A;
+    transition: all 0.3s ease-in-out;
+}
+
 .btn-primary {
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
     background-color: #FD6E0A;
     border: none;
     font-weight: 600;
@@ -81,7 +88,16 @@ nav li a {
     font-size: 20px;
 }
 
+.btn-primary:hover {
+    color: #FD6E0A;
+    background-color: white;
+    border: 1px solid #FD6E0A;
+    transition: all 0.3s ease-in-out;
+}
+
 .btn-secondary {
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
     color: #FD6E0A;
     border: 1px solid #FD6E0A;
     border-radius: 5px;
@@ -91,6 +107,11 @@ nav li a {
     font-size: 20px;
 }
 
+.btn-secondary:hover {
+    background-color: #FD6E0A;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
 
 /* Banner Section Style */
 .banner {
@@ -132,7 +153,7 @@ nav li a {
 
 /* About Section Style */
 
-main {
+main, .footer {
     margin: 0 230px;
 }
 
@@ -271,4 +292,71 @@ main {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+
+/* Footer Section Style */
+
+footer {
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item-1 {
+    margin-right: 120px;
+}
+
+.footer-title {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-image {
+    width: 24px;
+    margin-right: 24px;
+}
+
+
+form {
+    margin-top: 8px;
+}
+
+footer input {
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 30px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    border: none;
+}
+
+textarea {
+    font-family: "Open Sans", sans-serif;
+    height: 140px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 18px 30px;
+    background-color: #fff;
+    margin-bottom: 24px;
+    border: none;
+}
+
+footer input[type="submit"] {
+    width: auto;
+    margin-bottom: 0px;
 }
